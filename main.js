@@ -99,7 +99,7 @@ function filter(arr){
         filterdata=[]
         arr.forEach(ell =>{
             if (search.value) {
-				if(ell.title.includes(search.value)){
+				if(ell.title.toLowerCase().includes(search.value.toLowerCase())){
 					count = 0
 					filterdata.push(ell)
 				}
