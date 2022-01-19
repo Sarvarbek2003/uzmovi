@@ -93,7 +93,7 @@ function rend(arg){
         append.append(div)
 }
 }
-
+let filterdata = []
 function filter(arr){
     button.addEventListener('click', el =>{
         filterdata=[]
